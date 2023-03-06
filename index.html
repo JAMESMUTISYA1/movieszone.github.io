@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HDMovies</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="header" >
+       <div class="headername" ><span style="color: rgb(196, 28, 28);" >HD </span>  MOVIES ZONE </div>
+       <div class="header-navigation">
+            
+       </div>
+  </div>
+  <div style="display: flex;" >
+    <div class="headers" style="width: 60%;" >
+      Continue Watching
+    </div>
+    <div class="headers" style="width: 40%;" >
+      Most Watched
+    </div>
+  </div>
+  <!--gpt-->
+<div style="display: flex;" >
+    <div style="width: 60%; display: flex; background-color: rgb(10, 9, 9); height: 350px; align-items: center; justify-content: flex-start; "   >
+             <!--continue watching-->   
+   <div class="wed-season1"  style="display: flex; "  >
+    <!---->
+        <div class="episodes" style="height: 100%; " >
+              <img style="height: 250px;" id="episodeimg" src="emily.jpg" alt="">
+              <p  > <b> S2 EP4</b> Emily In Paris</p>
+              <p style="position: absolute; top: 40%; display: none; font-size: 25px;  left: 45%; color: red; font-weight: bold; "  >Play</p>
+        </div>
+        <div class="episodes" style="height: 100%;;">
+          <img style="height: 250px;" id="episodeimg" src="drippy-rick-and-morty.png" alt="">
+          <p> <b> S4 EP1 </b> Rick and Morty</p>
+    </div>
+    <div style="height: 100%; ;" class="episodes" >
+      <img style="height: 250px;" id="episodeimg" src="first-kill.jpg" alt="">
+      <p> <b> S1 EP7 </b> First Kill</p>
+</div>
+<div style="height: 100%; ;" class="episodes" >
+  <img style="height: 250px;" id="episodeimg" src="never (7).jpg" alt="">
+  <p> <b> S1 EP2 </b> Never Have I Ever</p>
+</div>
+      <!---->
+  </div>
+      <!--continue watching-->
+    </div>
+
+  <div class="container" >
+    <img class="mySlides" src="never (8).jpg" style="width:100%">
+    <img class="mySlides" src="wed (5).jpg" style="width:100%">
+    <img class="mySlides" src="kal.jfif" style="width:100%">
+  </div>
+
+</div>
+ 
+  <!--gpt-->
+  <!--
+  <div class="slider">
+    <div class="container">
+        <div class="slide-images">
+          <input type="radio" name="lide" id="im1" checked>
+          <input type="radio" name="lide" id="im2">
+          <input type="radio" name="lide" id="im3">
+
+          <img id="img-popular im1" style="height: 350px; width: 100%;" src="never (8).jpg" alt="">
+          <img id="img-popular im2" style="height: 350px;"  src="wed (5).jpg" alt="">
+          <img id="img-popular im3" style="height: 350px;"  src="kal.jfif" alt="">
+        </div>
+        <div class="dots">
+          <label for="img1"></label>
+          <label for="img2"></label>
+          <label for="img3"></label>
+        </div>
+    </div>
+  </div>
+    -->
+    <div class="ttheaders" >
+      Trending Animation
+    </div>
+    <!--animation-->
+    <div class="wednesday">
+      <div class="top-part"  >
+      <img src="wallpaper-woody-woodpecker.jpg" alt="">
+      <div class="top-part-nav">
+           <div style="display: flex;" >
+               <div class="navnav">Animation</div>
+               <div class="navnav">Family</div>
+               <div class="navnav">All Viewers</div>
+               <div class="navnav">2023</div>
+               <div class="navnav">1 Season</div>
+           </div>
+           <div>
+             <select class="select" >
+                <option value="1" > Season 1 </option>
+             </select>
+           </div>
+      </div>
+     </div>
+ 
+   </div>
+
+   <div class="wed-season1" style="display: flex; background-color: rgb(240, 96, 12);"  >
+    <!---->
+        <div class="episodes" >
+              <img id="episodeimg" src="woody-woodpecker.jpg" alt="">
+              <p  > <b> S1 EP1</b> Knock Knock</p>
+        </div>
+        <div class="episodes" >
+          <img id="episodeimg" src="woody-woodpecker1.jpg" alt="">
+          <p> <b> S1 EP2 </b> If you dont blah blah.</p>
+    </div>
+    <div class="episodes" >
+      <img id="episodeimg" src="woody-woodpecker2.jpg" alt="">
+      <p> <b> S1 EP3 </b> Pantry Panic</p>
+</div>
+<div class="episodes" >
+  <img id="episodeimg" src="wallpaper-woody-woodpecker.jpg" alt="">
+  <p> <b> S1 EP4 </b> Ace in the Hole</p>
+</div>
+<div class="episodes" >
+<img id="episodeimg" src="wp4106951-woody-woodpecker-wallpapers.jpg" alt="">
+<p> <b> S1 EP5 </b> The Loan Stranger</p>
+</div>
+      <!---->
+  </div>
+    <!--animation-->
+    <div class="ttheaders" >
+      New Releases
+    </div>
+  <div class="wednesday">
+     <div class="top-part"  >
+     <img src="wed (6).jpg" alt="">
+     <h1 class="top-part-wed" >Wednesday</h1>
+     <div class="top-part-nav">
+          <div style="display: flex;" >
+              <div class="navnav">Comedy</div>
+              <div class="navnav">Drama</div>
+              <div class="navnav">Family</div>
+              <div class="navnav">16+</div>
+              <div class="navnav">2023</div>
+              <div class="navnav">2 Seasons</div>
+          </div>
+          <div>
+            <select class="select" id="select" onclick="display();">
+               <option value="1" > Season 1 </option>
+               <option value="2"> Season 2 </option>
+            </select>
+          </div>
+     </div>
+    </div>
+
+  </div>
+  <div class="wed-text-part" >
+    <div class="left">
+      <p>Follows Wednesday Addam's as a Nevermore student. When she tries to master her emerging psychic ability, 
+        thwart a killing spree, and solve the mystery which emprolled her parents </p>
+      <div style="display: flex;" >
+        <p ><b>CREATORS: </b> <br><br> Alfred Gough, Miles Miller</p>
+        <p style="margin-left: 40px;" ><b>CAST: </b> <br><br>
+          James Mutisya, Jenna Ortega, Hunter Doohan, <br> Emma Myers, James Mutisya, Ricki Lindhome <br> Jamie Mcshare
+        </p>
+      </div>
+      
+    </div>
+ <div class="right" >
+      <div class="wed-season1" id="s1" style="display: flex;" >
+        <!---->
+            <div class="episodes" >
+                  <img id="episodeimg" src="wed (11).jpg" alt="">
+                  <p> <b> S1 EP1</b> murder woes</p>
+            </div>
+            <div class="episodes" >
+              <img id="episodeimg" src="wed (9).jpg" alt="">
+              <p> <b> S1 EP2 </b> Child of Woe</p>
+        </div>
+        <div class="episodes" >
+          <img id="episodeimg" src="wed (6).jpg" alt="">
+          <p> <b> S1 EP3 </b> Friend or Woe</p>
+    </div>
+    <div class="episodes" >
+      <img id="episodeimg" src="wed (10).jpg" alt="">
+      <p> <b> S1 EP4 </b> Alfred Gough</p>
+</div>
+<div class="episodes" >
+  <img id="episodeimg" src="wed (11).jpg" alt="">
+  <p> <b> S1 EP5 </b>Lonliest Number</p>
+</div>
+          <!---->
+      </div>
+      <!--season 2-->
+      <div class="wed-season1" id="s2" style="display: none;" >
+        <!---->
+        <div class="episodes" >
+          <img id="episodeimg" src="wed (10).jpg" alt="">
+          <p> <b> S2 EP1 </b> Child full of Woe</p>
+    </div>
+    <div class="episodes" >
+      <img id="episodeimg" src="wed (9).jpg" alt="">
+      <p> <b> S2 EP2 </b> Miles Millar</p>
+</div>
+        <div class="episodes" >
+          <img id="episodeimg" src="wed (11).jpg" alt="">
+          <p> <b> S2 EP3 </b> You Reap What You Woe</p>
+        </div> 
+        <div class="episodes" >
+          <img id="episodeimg" src="wed (6).jpg" alt="">
+          <p> <b> S2 EP4 </b> Woe what a Night</p>
+    </div>
+    <div class="episodes" >
+      <img id="episodeimg" src="wed (11).jpg" alt="">
+      <p> <b> S2 EP5</b> Quid Pro Woe</p>
+</div>
+    
+
+          <!---->
+      </div>
+      <!---->
+ </div>
+
+  </div>
+
+
+  <div class="ttheaders" >
+    #No one Trending
+  </div>
+ <!--never have i ever-->
+ <div class="wednesday">
+  <div class="top-part"  >
+  <img src="never (2).jpg" alt="">
+  <h1 class="top-part-wed" style="color: black;" >Never Have I Ever</h1>
+  <div class="top-part-nav">
+       <div style="display: flex;" >
+           <div class="navnav">Comedy</div>
+           <div class="navnav">Family</div>
+           <div class="navnav">18+</div>
+           <div class="navnav">2020</div>
+           <div class="navnav">1 Season</div>
+       </div>
+       <div>
+         <select class="select" >
+            <option value="1" > Season 1 </option>
+         </select>
+       </div>
+  </div>
+ </div>
+
+</div>
+<div class="wed-text-part" style="background-color: rgb(49, 66, 14);" >
+  <div class="left">
+    <p>Never Have I Ever is an American comedy-drama television series starring Maitreyi Ramakrishnan, <br>
+       created by Mindy Kaling and Lang Fisher. Though it takes place in the San Fernando Valley, the show <br>
+        has been reported to be loosely based on Kaling's childhood experiences in the Boston area,[1] while <br>
+         Kaling herself has said it is based "in the spirit of my childhood" </p>
+    <div style="display: flex;" >
+      <p ><b>CREATORS: </b> <br><br> Alfred Gough, Miles Miller</p>
+      <p style="margin-left: 40px;" ><b>CAST: </b> <br><br>
+        James Mutisya, Jenna Ortega, Hunter Doohan, <br> Emma Myers, James Mutisya, Ricki Lindhome <br> Jamie Mcshare
+      </p>
+    </div>
+    
+  </div>
+<div class="right" >
+    <div class="wed-season1" id="s1" style="display: flex;" >
+      <!---->
+          <div class="episodes" style="position: relative;" >
+                <img id="episodeimg" src="never (3).jpg" alt="">
+                <p> <b> S1 EP1</b>  Never Have I Ever Gone Out </p>
+          </div>
+          <div class="episodes" >
+            <img id="episodeimg" src="never (4).jpg" alt="">
+            <p> <b> S1 EP2 </b> Never Have I Ever Kissed</p>
+      </div>
+      <div class="episodes" >
+        <img id="episodeimg" src="never (5).jpg" alt="">
+        <p> <b> S1 EP3 </b>  Never Have I Ever cried</p>
+  </div>
+  <div class="episodes" >
+    <img id="episodeimg" src="never (6).jpg" alt="">
+    <p> <b> S1 EP4 </b>  Never Have I Ever had Fun</p>
+</div>
+<div class="episodes" >
+<img id="episodeimg" src="never (7).jpg" alt="">
+<p> <b> S1 EP5 </b>  Never Have I Ever Read</p>
+</div>
+        <!---->
+    </div>
+   
+    <!---->
+</div>
+
+</div>
+ <!--never have i ever-->
+<script>
+const s1 = document.getElementById("s1");
+const s2 = document.getElementById("s2");
+function display(){
+  
+  var option = document.getElementById("select").value;
+  
+  if(option == 1){
+    s1.style.display = "flex";
+    s2.style.display = "none";
+  } else {
+    s1.style.display = "none";
+    s2.style.display = "flex";
+    
+  }
+}
+
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
