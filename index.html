@@ -15,18 +15,18 @@
        </div>
   </div>
   <div style="display: flex;" >
-    <div class="headers" style="width: 60%;" >
+    <div class="headers contheader " >
       Continue Watching
     </div>
-    <div class="headers" style="width: 40%;" >
+    <div class="headers mostwatchedheader" style="width: 40%;" >
       Most Watched
     </div>
   </div>
   <!--gpt-->
-<div style="display: flex;" >
-    <div style="width: 60%; display: flex; background-color: rgb(10, 9, 9); height: 350px; align-items: center; justify-content: flex-start; "   >
+<div id="contmostwacth"  >
+    <div id="continue"   >
              <!--continue watching-->   
-   <div class="wed-season1"  style="display: flex; "  >
+   <div class=" continuewatching "  style="display: flex; "  >
     <!---->
         <div class="episodes" style="height: 100%; " >
               <img style="height: 250px;" id="episodeimg" src="emily.jpg" alt="">
@@ -49,8 +49,12 @@
   </div>
       <!--continue watching-->
     </div>
+ <!--mostwatched-->
+    <div class="headers mostwatchedheader2" style="width: 100vw;" >
+      Most Watched
+    </div>
 
-  <div class="container" >
+  <div id="mostwatched" class="container" >
     <img class="mySlides" src="never (8).jpg" style="width:100%">
     <img class="mySlides" src="wed (5).jpg" style="width:100%">
     <img class="mySlides" src="kal.jfif" style="width:100%">
@@ -58,7 +62,7 @@
 
 </div>
  
-  <!--gpt-->
+  <!---->
   <!--
   <div class="slider">
     <div class="container">
@@ -94,8 +98,8 @@
                <div class="navnav">2023</div>
                <div class="navnav">1 Season</div>
            </div>
-           <div>
-             <select class="select" >
+           <div class="button1">
+             <select class="select " >
                 <option value="1" > Season 1 </option>
              </select>
            </div>
@@ -104,7 +108,12 @@
  
    </div>
 
-   <div class="wed-season1" style="display: flex; background-color: rgb(240, 96, 12);"  >
+   <div class="button2" >
+    <select class="select " >
+       <option value="1" > Season 1 </option>
+    </select>
+  </div>
+   <div class=" rickandmorty wed-season1" style="display: flex; padding-top: 20px; background-color: rgb(240, 96, 12);"  >
     <!---->
         <div class="episodes" >
               <img id="episodeimg" src="woody-woodpecker.jpg" alt="">
@@ -145,7 +154,7 @@
               <div class="navnav">2023</div>
               <div class="navnav">2 Seasons</div>
           </div>
-          <div>
+          <div class="button1">
             <select class="select" id="select" onclick="display();">
                <option value="1" > Season 1 </option>
                <option value="2"> Season 2 </option>
@@ -167,8 +176,15 @@
       </div>
       
     </div>
+    
+    <div class="wedbutton2" style="padding-top: 10px; padding-bottom: 10px;">
+      <select class="select" id="select" onclick="display();">
+         <option value="1" > Season 1 </option>
+         <option value="2"> Season 2 </option>
+      </select>
+      </div>
  <div class="right" >
-      <div class="wed-season1" id="s1" style="display: flex;" >
+      <div class="wed-season1 mobwedses" id="s1" style="display: flex;" >
         <!---->
             <div class="episodes" >
                   <img id="episodeimg" src="wed (11).jpg" alt="">
@@ -193,9 +209,9 @@
           <!---->
       </div>
       <!--season 2-->
-      <div class="wed-season1" id="s2" style="display: none;" >
+      <div class="wed-season1 mobwedses" id="s2" style="display: none;" >
         <!---->
-        <div class="episodes" >
+        <div class="episodes " >
           <img id="episodeimg" src="wed (10).jpg" alt="">
           <p> <b> S2 EP1 </b> Child full of Woe</p>
     </div>
@@ -241,7 +257,7 @@
            <div class="navnav">2020</div>
            <div class="navnav">1 Season</div>
        </div>
-       <div>
+       <div class="button1" >
          <select class="select" >
             <option value="1" > Season 1 </option>
          </select>
@@ -264,6 +280,12 @@
     </div>
     
   </div>
+  <div class="wedbutton2" style="padding-top: 10px; padding-bottom: 10px;">
+    <select class="select" id="select" onclick="display();">
+       <option value="1" > Season 1 </option>
+       <option value="2"> Season 2 </option>
+    </select>
+    </div>
 <div class="right" >
     <div class="wed-season1" id="s1" style="display: flex;" >
       <!---->
@@ -295,6 +317,23 @@
 
 </div>
  <!--never have i ever-->
+ <!--footer-->
+ <div class="footer">
+  <div class="footernav" >
+    <div>TOP SHOWS</div>
+    <div>TOP MOVIES</div>
+    <div>WATCH LIST</div>
+    <div>HELP</div>
+    <div>DOWNLOAD APP</div>
+    <div>ABOUT US</div>
+  </div>
+  <div class="footerbottom">
+    <span> &copy; 2023 All Rights  </span>
+    <span class="hover "  >PRIVACY POLICY</span>
+    <span class="hover " >TERMS OF USE</span>
+  </div>
+ </div>
+ <!--/footer-->
 <script>
 const s1 = document.getElementById("s1");
 const s2 = document.getElementById("s2");

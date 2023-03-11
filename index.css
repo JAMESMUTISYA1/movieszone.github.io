@@ -15,6 +15,17 @@ body{
     font-size: 24px;
     color: white;
 }
+.continuewatching, .rickandmorty {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.rickandmorty::-webkit-scrollbar{
+    display: none;
+}
+.continuewatching::-webkit-scrollbar{
+    display: none;
+} 
+
 .container{
     width: 40%;
     height: 350px;
@@ -143,4 +154,104 @@ body{
 #episodeimg:hover{
     transform: scale(1.5);
     z-index: 2;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    color: white;
+    height: 90px;
+    padding-top: 20px;
+}
+.footernav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footernav div:hover{
+    color: green;
+}
+.footerbottom{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerbottom .hover:hover{
+    color: green;
+}
+.contheader{
+    width: 60%;
+}
+.mostwatchedheader2{
+    display: none;
+}
+#contmostwacth{
+    display: flex;
+   }
+#continue{
+    width: 60%; 
+    display: flex;
+    background-color: rgb(10, 9, 9); 
+    height: 350px;
+    align-items: center; 
+    justify-content:  flex-start; 
+}
+.button2{
+    display: none;
+}
+.wedbutton2{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+   .mostwatchedheader{
+    display: none;
+   }
+   .contheader{
+    width: 100vw;
+   }
+   #contmostwacth{
+    display: block;
+   }
+   #continue{
+    width: 100vw;
+   }
+   .mostwatchedheader2{
+    display: block;
+}
+#mostwatched{
+    width: 100vw;
+}
+.top-part-nav{
+    display: block;
+}
+.button1{
+    display: none;
+}
+.button2{
+    display: block;
+    background-color: rgb(240, 96, 12);
+    width: 100vw;
+    padding-left: 10px;
+}
+.wedbutton2{
+    display: block;
+    background-color: rgb(7, 7, 7);
+    width: 100vw;
+    padding-left: 10px;
+}
+.wed-text-part{
+    display: block;
+    height: auto;
+}
+.wed-text-part .left{
+    width: 100vw;
+}
+.wed-text-part .right{
+    width: 100vw;
+    padding-top: 20px;
+}
+.mobwedses{
+    width: 100vw;
+}
 }
